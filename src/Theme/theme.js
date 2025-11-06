@@ -8,6 +8,9 @@ const theme = createTheme({
         secondary:{
             main:'#020222'
         }
+    },
+    typography:{
+        fontFamily:"'Stack Sans Headline', sans-serif"
     }
 })
 

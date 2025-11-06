@@ -1,8 +1,10 @@
 import React from 'react'
-import Typography from '@mui/material/Typography'
+import Hero from '../component/Hero'
 
 export default function Home() {
-  return (
-<Typography variant="body1" color="secondary">hello home page </Typography>
-  )
+    return (
+        <>
+            <Hero />
+        </>
+    )
 }
