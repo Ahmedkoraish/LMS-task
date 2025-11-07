@@ -39,6 +39,7 @@ export default function Hero() {
                             color: "#fff",
                             px: 2,
                             py: 1,
+                            transition:"1s",
                             "&:hover": {
                                 bgcolor: "secondary.main",
                                 color: "#fff",
@@ -53,6 +54,7 @@ export default function Hero() {
                             color: "secondary.main",
                             px: 2,
                             py: 1,
+                            transition:"1s",
                             "&:hover": {
                                 bgcolor: "primary.main",
                                 color: "#fff",

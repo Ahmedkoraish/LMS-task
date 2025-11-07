@@ -1,5 +1,9 @@
 {
     "topics": [
-        
+        {"id": 1, "name": "programming course", "image":"topic/topic1.jpg"},
+        {"id": 2, "name": "Marketing course", "image":"topic/topic2.jpg"},
+        {"id": 3, "name": "Business course", "image":"topic/topic3.jpg"},
+        {"id": 4, "name": "Tech and digital course", "image":"topic/topic4.jpg"},
+        {"id": 5, "name": "Data science course", "image":"topic/topic5.jpg"}
     ]
 }
