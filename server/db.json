@@ -5,5 +5,14 @@
         {"id": 3, "name": "Business course", "image":"topic/topic3.jpg"},
         {"id": 4, "name": "Tech and digital course", "image":"topic/topic4.jpg"},
         {"id": 5, "name": "Data science course", "image":"topic/topic5.jpg"}
+    ],
+    "courses": [
+        {"id":1,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course1.jpg","des":"Discover the 'Entrepreneurship and Innovation' course, designed to equip you with the essential skills.","icon":},
+        {"id":2,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course2.jpg"},
+        {"id":3,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course3.jpg"},
+        {"id":4,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course4.jpg"},
+        {"id":5,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course5.jpg"},
+        {"id":6,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course6.jpg"},
+        {"id":7,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course7.jpg"}
     ]
 }

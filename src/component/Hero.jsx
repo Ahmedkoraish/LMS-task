@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <>
             <Box sx={{
-                height:"100vh",
+                height:{xs:'auto',md:"100vh"},
                 display:'flex',
                 justifyContent:"space-between",
                 flexDirection:{xs:"column-reverse",md:"row"},
@@ -17,7 +17,8 @@ export default function Hero() {
                     width:{xs:"100%",md:"60%"},
                     display:"flex",
                     flexDirection:"column",
-                    justifyContent:"center"
+                    justifyContent:"center",
+                    mt: {xs: 2, md: 0}
                 }}>
                     <Typography variant="h3" color="secondary" sx={{fontFamily:"Stack Sans Headline",fontSize:{xs:"2.5rem",md:"4rem"}}}>
                         Ghost Learning <br /> Management System
