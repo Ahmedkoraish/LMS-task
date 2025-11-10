@@ -20,7 +20,7 @@ export default function Hero() {
                     justifyContent:"center",
                     mt: {xs: 2, md: 0}
                 }}>
-                    <Typography variant="h3" color="secondary" sx={{fontFamily:"Stack Sans Headline",fontSize:{xs:"2.5rem",md:"4rem"}}}>
+                    <Typography variant="h4" color="secondary" sx={{fontFamily:"Stack Sans Headline",fontSize:{xs:"2.5rem",md:"4rem"}}}>
                         Ghost Learning <br /> Management System
                     </Typography>
                     <Typography variant="body1" color="#808080" sx={{py:2}}>

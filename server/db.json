@@ -1,18 +1,150 @@
 {
     "topics": [
-        {"id": 1, "name": "programming course", "image":"topic/topic1.jpg"},
-        {"id": 2, "name": "Marketing course", "image":"topic/topic2.jpg"},
-        {"id": 3, "name": "Business course", "image":"topic/topic3.jpg"},
-        {"id": 4, "name": "Tech and digital course", "image":"topic/topic4.jpg"},
-        {"id": 5, "name": "Data science course", "image":"topic/topic5.jpg"}
+        {
+            "id": 1,
+            "name": "programming course",
+            "image": "topic/topic1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Marketing course",
+            "image": "topic/topic2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Business course",
+            "image": "topic/topic3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Tech and digital course",
+            "image": "topic/topic4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Data science course",
+            "image": "topic/topic5.jpg"
+        }
     ],
     "courses": [
-        {"id":1,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course1.jpg","des":"Discover the 'Entrepreneurship and Innovation' course, designed to equip you with the essential skills.","icon":},
-        {"id":2,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course2.jpg"},
-        {"id":3,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course3.jpg"},
-        {"id":4,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course4.jpg"},
-        {"id":5,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course5.jpg"},
-        {"id":6,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course6.jpg"},
-        {"id":7,"name":"Entrepreneurship & Innovation (Free Course)","image":"course/course7.jpg"}
+        {
+            "id": 1,
+            "name": "Entrepreneurship & Innovation (Free Course)",
+            "image": "course/course1.jpg",
+            "des": "Discover the 'Entrepreneurship and Innovation' course, designed to equip you with the essential skills.",
+            "icon": "course/themeIcon.jpg",
+            "title1": "Themix",
+            "country": "united state"
+        },
+        {
+            "id": 2,
+            "name": "Data Analytics Techniques for 2025",
+            "image": "course/course2.jpg",
+            "des": "Master data analytics with our 'Data Analytics Techniques' course. Learn essential techniques for analyzing and interpreting data.",
+            "icon": "course/themeIcon.jpg",
+            "title1": "Themix",
+            "country": "united state"
+        },
+        {
+            "id": 3,
+            "name": "Statistical Analysis for Data Science ",
+            "image": "course/course3.jpg",
+            "des": "Learn the core principles of user interface (UI) and user experience (UX) design. This course covers design basics, user research.",
+            "icon": "course/themeIcon.jpg",
+            "title1": "Themix",
+            "country": "united state"
+        },
+        {
+            "id": 4,
+            "name": "Advanced C++ concepts",
+            "image": "course/course4.jpg",
+            "des": "Dive into advanced C++ programming topics, including memory management, templates, and concurrency, to enhance your skills.",
+            "icon": "course/themeIcon.jpg",
+            "title1": "Themix",
+            "country": "united state"
+        },
+        {
+            "id": 5,
+            "name": "Python for beginners",
+            "image": "course/course5.jpg",
+            "des": "Discover the basics of Python programming with hands-on exercises and complete practical projects perfect.",
+            "icon": "course/themeIcon.jpg",
+            "title1": "Themix",
+            "country": "united state"
+        },
+        {
+            "id": 6,
+            "name": "JavaScript Essentials",
+            "image": "course/course6.jpg",
+            "des": "Learn the fundamentals of JavaScript, including syntax, functions, and DOM manipulation, JavaScript library usase etc.",
+            "icon": "course/themeIcon.jpg",
+            "title1": "Themix",
+            "country": "united state"
+        },
+        {
+            "id": 7,
+            "name": "Integrated Marketing Tactics",
+            "image": "course/course7.jpg",
+            "des": "Learn how to harmonize online and offline marketing efforts to create a cohesive strategy that drives success",
+            "icon": "course/themeIcon.jpg",
+            "title1": "Themix",
+            "country": "united state"
+        },
+        {
+            "id": 8,
+            "name": "Social Media Mastery",
+            "image": "course/course8.jpg",
+            "des": "Master social media with strategies to enhance your brand's presence, engage your audience, and drive results",
+            "icon": "course/themeIcon.jpg",
+            "title1": "Themix",
+            "country": "united state"
+        },
+        {
+            "id": 9,
+            "name": "Mastering Digital Marketing ",
+            "image": "course/course9.jpg",
+            "des": "Learn how to effectively manage campaigns, optimize for search engines, master social media, and leverage analytics to drive growth and engagement.",
+            "icon": "course/themeIcon.jpg",
+            "title1": "Themix",
+            "country": "united state"
+        }
+    ],
+    "articals": [
+        {
+            "id": 1,
+            "name": "Common Business Development Mistakes and ",
+            "des": "Avoid costly business development mistakes by learning the most common pitfalls and their solutions.",
+            "image": "articles/article1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Effective Negotiation Skills Every Business Developer",
+            "des": "Master essential negotiation skills to close deals, build partnerships, and drive business success.",
+            "image": "articles/article2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "The Role of Networking in Business Growth ",
+            "des": "Find out how effective networking can open doors, build trust, and accelerate your business growth.",
+            "image": "articles/article3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "How to Identify and Seize New Market Opportunities",
+            "des": "Discover practical ways to spot new market opportunities and position your business for sustainable growth.",
+            "image": "articles/article4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "The Ultimate Guide to Python Data Structures",
+            "des": "Python is renowned for its readability and simplicity, and its data structures are no exception. Understanding how to ef",
+            "image": "articles/article5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Mastering JavaScript: Essential Tips for Beginners",
+            "des": "Dive into the basics of JavaScript with practical tips and techniques for beginners. Learn how to get started with JavaScript.",
+            "image": "articles/article6.jpg"
+        }
     ]
 }
