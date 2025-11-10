@@ -19,7 +19,7 @@ export default function Home() {
             <Subscripe />
             <Button variant="contained" color="primary" sx={{ position: "fixed", bottom: 20, right: 20, px: 2, py: 1, borderRadius: 6 }}>
                 <IconButton >
-                    <AddIcon sx={{ color: "#fff" }}/>
+                    <AddIcon sx={{ color: "#fff" , fontSize: 30 }}/>
                 </IconButton>
                 Subscribe
             </Button>
