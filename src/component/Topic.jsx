@@ -1,4 +1,6 @@
-import { Box, Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
+import { Box, Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography, IconButton } from '@mui/material'
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import Slider from "react-slick";
@@ -47,12 +49,25 @@ export default function Topic() {
             }}>
                 {/* title and arrow  */}
                 <Box sx={{
-                    // bgcolor: "blue"
+                    // bgcolor: "blue" 
+                    display: "flex",
+                    justifyContent: "space-between",
                 }}>
                     <Typography variant="h4" color="secondary">
                         Popular Topics
                     </Typography>
-                    
+
+                    <Box sx={{
+                        
+                    }}>
+                        <IconButton sx={{border: '1px solid gray' , mr:2}}>
+                            <KeyboardArrowLeftIcon />
+                        </IconButton>
+                        <IconButton sx={{border: '1px solid gray'}}>
+                            <KeyboardArrowRightIcon />
+                        </IconButton>
+                    </Box>
+
 
                 </Box>
                 {/* images card */}
@@ -62,7 +77,7 @@ export default function Topic() {
                 }}>
                     <Slider {...settings}>
                         {topics?.map((topic) => (
-                            <Card key={topic.id} sx={{ maxWidth: 345, bgcolor: "transparent", px: 1, boxShadow: "none"}}>
+                            <Card key={topic.id} sx={{ maxWidth: 345, bgcolor: "transparent", px: 1, boxShadow: "none" }}>
                                 <CardActionArea>
                                     <CardMedia
                                         component="img"
